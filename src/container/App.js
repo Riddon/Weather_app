@@ -1,20 +1,22 @@
 import React from 'react';
+import './App.css';
 import {getCityWeather} from "../services/cityWeatherAPI";
+import CityForm from "../components/CityForm/CityForm";
 
 
 const App = () => {
 
-    const onClick = () => {
-        getCityWeather('London').then((result) => {
+    const showWeather = (city) => {
+        getCityWeather(city).then((result) => {
             console.log('Result -->', result)
         });
     };
 
     return (
         <>
-          <button onClick={onClick}>
-            "Start"
-          </button>
+            <div className="container">
+                <CityForm handlerSubmit={showWeather}/>
+            </div>
         </>
     );
 };

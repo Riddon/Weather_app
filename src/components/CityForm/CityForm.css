@@ -1,0 +1,46 @@
+.city-name_form {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.city-name_title {
+    margin: 50px 0;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+
+.city-name_content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.city-name_input {
+    box-sizing: border-box;
+    width: 75%;
+    height: 40px;
+    padding-left: 10px;
+    border: 2px solid #6f6f6f;
+}
+
+.city-name_input::placeholder {
+
+}
+
+.city-name_btn {
+    box-sizing: border-box;
+    width: 25%;
+    height: 40px;
+    padding: 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background: #e87928;
+    border: 2px solid #6f6f6f;
+    border-left: none;
+    cursor: pointer;
+}
