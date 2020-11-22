@@ -12,8 +12,14 @@ This is an application of the city temperature forecast
 
 **`See application`**
 
-You have to clone this project to your computer and type `npm i` after type command `npm start`
+For start project you need to do next:
 
-###### or
+- Press button `CLONE` on this project and copy `Clone with SSH` or `Clone with SSH`
 
-Click this page: 
+- Then work with you terminal in your `IDE` or `git BUSH`:
+
+- Type `git clone "your copied CLONE"`.
+
+- Then type `npm install` or `npm i`.
+
+- After install you can start the game - just type `npm start`.
