@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
+import propTypes from "prop-types";
 import './CityForm.css';
 
-const CityForm = (props) => {
-    const {handlerSubmit} = props;
+const CityForm = ({handlerSubmit}) => {
     const [cityName, setCityName] = useState('');
 
     const onSubmitEvent = (e) => {
@@ -35,6 +35,10 @@ const CityForm = (props) => {
             </form>
         </>
     );
+};
+
+CityForm.propTypes = {
+    handlerSubmit: propTypes.func
 };
 
 export default CityForm;
