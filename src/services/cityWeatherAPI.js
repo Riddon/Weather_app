@@ -6,7 +6,7 @@ import {appId} from "../constants/constOpenWeatherAppID";
 export const getCityWeather = async (city) => {
     try {
         return await axios
-            .get(`${cityWeatherURL}q=${city}&appid=${appId}`)
+            .get(`${cityWeatherURL}q=${city}&appid=${appId}&units=metric`)
             .then(res => res);
     } catch (error) {
         return error.response;

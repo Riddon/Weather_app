@@ -1,0 +1,14 @@
+.city-weather__bar {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 30px 10px;
+    background: #fff;
+    height: 1500px;
+}
+
+.city-weather__title {
+    padding: 20px 0;
+    font-size: 24px;
+    text-align: center;
+}
